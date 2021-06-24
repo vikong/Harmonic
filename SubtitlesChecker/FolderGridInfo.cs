@@ -264,7 +264,7 @@ namespace Harmonic.Subtitles
 
                     stageProgress = new Progress<int>((x) =>
                     {
-                        progressReport.FilesAbsent = x;
+                        progressReport.FilesCopied = x;
                         Progress = progressReport.ToString();
                         progress?.Report(ProgressState.Copy);
                     });

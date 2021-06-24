@@ -771,13 +771,13 @@ namespace Harmonic.Subtitles
 		{
 			lock (_cancellationLocker)
 			{
-				if (_tokenSource.IsCancellationRequested)
+				if (!FolderList.Any(f => f.Status == FolderGridInfo.State.Checking))
 				{
-					if (!FolderList.Any(f => f.Status == FolderGridInfo.State.Checking))
+					this.CancelButton.Visible = false;
+					if (_tokenSource.IsCancellationRequested)
 					{
 						_tokenSource = new CancellationTokenSource();
 						CancellationToken = _tokenSource.Token;
-						this.CancelButton.Visible = false;
 					}
 				}
 			}

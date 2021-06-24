@@ -237,7 +237,7 @@ namespace Harmonic.Subtitles
                 foreach (var f in targetFiles)
                 {
 #if _DELAY
-                    await SimulateDelay(cancellation);
+                    //await SimulateDelay(cancellation);
 #endif
                     target.Add(Path.GetFileName(f), new FilePart(f));
                 }

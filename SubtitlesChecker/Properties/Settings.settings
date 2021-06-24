@@ -1,0 +1,45 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Harmonic.Subtitles.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="FoldersListFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DefaultFolders.xml</Value>
+    </Setting>
+    <Setting Name="ShowWindow" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="CheckInterval" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="FrmSize" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">0, 0</Value>
+    </Setting>
+    <Setting Name="AutoCheck" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="FrmLocation" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">0, 0</Value>
+    </Setting>
+    <Setting Name="AppFirst" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="LogFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">.\Logs</Value>
+    </Setting>
+    <Setting Name="SubtitlesFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">tmp.stl</Value>
+    </Setting>
+    <Setting Name="Suffix" Type="System.String" Scope="User">
+      <Value Profile="(Default)">_en,_ru</Value>
+    </Setting>
+    <Setting Name="ExtSource" Type="System.String" Scope="User">
+      <Value Profile="(Default)">mxf,mov</Value>
+    </Setting>
+    <Setting Name="ExtSubtitles" Type="System.String" Scope="User">
+      <Value Profile="(Default)">stl</Value>
+    </Setting>
+    <Setting Name="Language" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

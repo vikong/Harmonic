@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Condition type="OR">
+  <Condition type="AND">
+    <Clause Substring="sought string" Contains="True" />
+  </Condition>
+</Condition>

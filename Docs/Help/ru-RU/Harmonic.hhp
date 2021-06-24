@@ -1,0 +1,19 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=Harmonic.chm
+Contents file=Table of Contents.hhc
+Default Window=Harmonic
+Display compile progress=No
+Index file=SubtitlesChecker\Index.hhk
+Language=0x809 Английский (Соединенное Королевство)
+Title=Harmonic
+
+[WINDOWS]
+Harmonic=,"Table of Contents.hhc","SubtitlesChecker\Index.hhk",,,,,,,0x2520,,0x3006,,,,,,,,0
+
+
+[FILES]
+Harmonic.htm
+
+[INFOTYPES]
+

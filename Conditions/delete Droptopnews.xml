@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Condition type="AND">
+  <Clause Substring="om_node_delete_1_svc" Contains="True" />
+  <Condition type="AND">
+    <Clause Substring="path=/mg-fs/MOSKVA_24/Droptonews" Contains="True" />
+  </Condition>
+  <Condition type="OR">
+    <Clause Substring="rc=0" Contains="True" />
+    <Clause Substring="rc=1" Contains="True" />
+    <Clause Substring="(ci)" Contains="True" />
+  </Condition>
+</Condition>

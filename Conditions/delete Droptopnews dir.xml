@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Condition type="AND" tag="search deletion of Droptonews folder">
+  <Clause Substring="om_node_delete_1_svc" Contains="True" />
+  <Condition type="OR" tag="Dir Droptonews">
+    <Clause Substring="MOSKVA_24/Droptonews " Contains="True" />
+    <Clause Substring="MOSKVA_24/Droptonews]" Contains="True" />
+  </Condition>
+</Condition>

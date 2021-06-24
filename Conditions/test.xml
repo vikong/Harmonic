@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Condition type="OR" tag="test condition" negation="True">
+  <Condition type="AND">
+    <Clause Substring="abc" Contains="True" />
+    <Clause Substring="cde" Contains="True" />
+  </Condition>
+  <Clause Substring="test" Contains="True" />
+</Condition>

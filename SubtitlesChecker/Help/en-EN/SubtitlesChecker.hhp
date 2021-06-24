@@ -1,0 +1,16 @@
+[OPTIONS]
+Compatibility=1.1 or later
+Compiled file=SubtitlesChecker.chm
+Contents file=Table of Contents.hhc
+Default topic=..\en-EN\Subtitles Checker.html
+Display compile progress=No
+Index file=Index.hhk
+Language=0x809 Английский (Соединенное Королевство)
+Title=SubtitlesChecker
+
+
+[FILES]
+Subtitles Checker.html
+
+[INFOTYPES]
+

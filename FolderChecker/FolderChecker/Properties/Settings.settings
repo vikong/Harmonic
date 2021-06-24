@@ -1,0 +1,63 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FolderChecker.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="FoldersListFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">DefaultFolders.xml</Value>
+    </Setting>
+    <Setting Name="ShowWindow" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="CheckInterval" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="LogFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">log.txt</Value>
+    </Setting>
+    <Setting Name="EmlLogin" Type="System.String" Scope="User">
+      <Value Profile="(Default)">login@mail.ru</Value>
+    </Setting>
+    <Setting Name="EmlPass" Type="System.String" Scope="User">
+      <Value Profile="(Default)">pa$$word</Value>
+    </Setting>
+    <Setting Name="EmlHost" Type="System.String" Scope="User">
+      <Value Profile="(Default)">smtp.mail.ru</Value>
+    </Setting>
+    <Setting Name="EmlPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">25</Value>
+    </Setting>
+    <Setting Name="EmlFrom" Type="System.String" Scope="User">
+      <Value Profile="(Default)">login@mail.ru</Value>
+    </Setting>
+    <Setting Name="EmlTo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">recipient@mail.ru</Value>
+    </Setting>
+    <Setting Name="EmlUseCurUser" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="EmlSsl" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="EmlSubject" Type="System.String" Scope="User">
+      <Value Profile="(Default)">PingFolder error</Value>
+    </Setting>
+    <Setting Name="EmlSend" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TestFileSize" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="FrmSize" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">0, 0</Value>
+    </Setting>
+    <Setting Name="FrmLocation" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">0, 0</Value>
+    </Setting>
+    <Setting Name="AppFirst" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="AutoCheck" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
